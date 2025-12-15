@@ -1,5 +1,6 @@
 pipeline {
     agent {
+        label 'main'
         docker {
             image 'python:3.12-slim'
             // Opcjonalnie: mapowanie użytkownika, aby uniknąć problemów z uprawnieniami
