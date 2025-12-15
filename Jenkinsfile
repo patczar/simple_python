@@ -20,7 +20,7 @@ pipeline {
         stage('Testy') {
             steps {
                 // Uruchomienie testów z pliku logc_test.py
-                sh 'pytest logc_test.py --junitxml=test-results.xml'
+                sh 'pytest logic_test.py --junitxml=test-results.xml'
             }
         }
     }
