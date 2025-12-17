@@ -3,6 +3,6 @@ def say_hello(name):
 
 def factorial(n):
     result = 1
-    for i in range(2, n+1):
+    for i in range(1, n):
         result *= i
     return result
